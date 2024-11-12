@@ -30,4 +30,6 @@ Sha1 is not considered anymore as a secure hash type!
 	-Step 10: Produce "digest"
 	-Step 11: Produce "hexdigest"
   
-![SHA1](https://github.com/marvin-mangold/S7-PLC_SHA1/assets/10088323/668d7fba-afee-49ea-b984-342b83b50892)
+![SHA1](https://github.com/user-attachments/assets/2111ad81-4ee9-48f0-b39c-312c828c9f75)
+
+
