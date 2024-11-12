@@ -13,7 +13,7 @@ depending on the input "outputmode" different outputformats are available
 2   The hexdigest output is the final hash value as a hexadecimal string of H0 - H4 (40 bytes string)
 3   Both 1 and 2
 
-For further informations take a look at RFC 3174
+For further informations take a look at RFC 3174.
 Sha1 is not considered anymore as a secure hash type!
 
 	-Step 00: Initialize variables H0 - H4
