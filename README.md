@@ -5,13 +5,15 @@ Sha1 is an cryptographic algorithm that takes a string of any length and reduces
 In this implmementation the string length is limited to a maximum length of 254 characters (String[254] - 2032 bit).
 
 depending on the input "inputmode" different inputformats are used
-	-1   Message is used as Bytes
-	-2   Message is used as String
+	
+	- 1 Message is used as Bytes
+	- 2 Message is used as String
 
 depending on the input "outputmode" different outputformats are available
-	-1   The digest ouput is the final hash value as a string of H0 - H4 (Array [0..19] of Byte)
-	-2   The hexdigest output is the final hash value as a hexadecimal string of H0 - H4 (40 bytes string)
-	-3   Both 1 and 2
+
+	-1 The digest ouput is the final hash value as a string of H0 - H4 (Array [0..19] of Byte)
+	-2 The hexdigest output is the final hash value as a hexadecimal string of H0 - H4 (40 bytes string)
+	-3 Both 1 and 2
 
 For further informations take a look at RFC 3174.
 Sha1 is not considered anymore as a secure hash type!
