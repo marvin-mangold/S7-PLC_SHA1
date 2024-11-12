@@ -19,6 +19,7 @@ For further informations take a look at RFC 3174.
 Sha1 is not considered anymore as a secure hash type!
 
 steps:
+
 	-Step 00: Initialize variables H0 - H4
 	-Step 01: Convert message to Bytes
 	-Step 02: Appending padding Bits
