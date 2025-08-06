@@ -281,13 +281,12 @@ BEGIN
 	
 	REGION Step 10: Produce "digest"
 	    IF #outputmode = 1 OR #outputmode = 3 THEN
-	        // the final hash value as bytes of H0 - H4 (Array [0..19] of Byte
+	        // the final hash value as bytes of H0 - H4 (Array [0..19] of Byte)
 	        // H0 = 16#A9_4A_8F_E5
 	        // H1 = 16#CC_B1_9B_A6
 	        // H2 = 16#1C_4C_08_73
 	        // H3 = 16#D3_91_E9_87
-	        // H4= 16#98_2F_BB_D3
-	        // digest = '©J$8FåÌ±›¦$1CL$08sÓ‘é‡˜/»Ó'
+	        // H4 = 16#98_2F_BB_D3
 	        
 	        #digest[0] := #H0.%B3;
 	        #digest[1] := #H0.%B2;
@@ -381,4 +380,5 @@ BEGIN
 	    #hexdigest := '';
 	END_IF;
 END_FUNCTION
+
 
